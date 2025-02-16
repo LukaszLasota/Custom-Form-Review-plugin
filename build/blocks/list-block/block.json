@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "custom-form-review/list-block",
+  "title": "Feedback List",
+  "category": "widgets",
+  "icon": "list-view",
+  "description": "Blok wyświetlający listę zgłoszeń (tylko dla administratorów).",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "custom-form-review",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index-rtl.css",
+  "viewStyle": "file:./style-index.css",
+  "viewScript": "file:./frontend.js"
+}

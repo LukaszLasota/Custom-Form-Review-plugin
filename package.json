@@ -1,0 +1,16 @@
+{
+  "name": "custom-form-review",
+  "version": "1.0.0",
+  "description": "Blogi gutenberga dla formularza oraz listy wysłąnych wiadomości.",
+  "author": "Łukasz Lasota",
+  "license": "GPL-2.0-or-later",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^27.9.0"
+  },
+  "type": "module"
+}
