@@ -1,0 +1,11 @@
+{
+    "name": "custom-block/custom-form-review",
+	"description": "Custom Form Review plugin",
+	"type": "wordpress-plugin",
+	"autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+	"require": {}
+}

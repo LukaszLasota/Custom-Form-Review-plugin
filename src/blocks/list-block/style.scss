@@ -1,0 +1,119 @@
+.feedback-list-container {
+    margin: 100px 0;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+  
+    .feedback-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: 0;
+      list-style: none;
+  
+      @media (max-width: 600px) {
+        grid-template-columns: 1fr;
+      }
+  
+      .feedback-tile {
+        border: 1px solid #ccc;
+        padding: 15px;
+        border-radius: 4px;
+        background: #fff;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 22px;
+  
+        .tile-row {
+          margin-bottom: 8px;
+          width: 100%;
+          word-break: break-all;
+  
+          &.tile-row-name {
+            font-weight: bold;
+            font-size: 1.1em;
+          }
+  
+          &.tile-row-email,
+          &.tile-row-subject {
+            font-size: 0.95em;
+            color: #555;
+          }
+          &.tile-row-button{
+            padding: 5px 15px;
+            border-radius: 5px;
+            background-color: #0073aa;
+            width: auto;
+            color: white;
+            cursor: pointer;
+          }
+        }
+  
+        .tile-show-message {
+          background-color: #0073aa;
+          color: #fff;
+          padding: 6px 10px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          display: inline-block;
+          margin-top: 10px;
+  
+          &:hover,
+          &:focus {
+            background-color: #005a87;
+          }
+        }
+  
+        .tile-full-message {
+          margin-top: 10px;
+          padding: 10px;
+          background: #f7f7f7;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+        }
+      }
+    }
+  
+    .feedback-pagination {
+      text-align: center;
+      margin-top: 20px;
+      display: flex;
+      font-size: 22px;
+
+      button,
+      div[role="button"] {
+        background-color: #0073aa;
+        color: #fff;
+        padding: 8px 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 0 5px;
+        transition: background-color 0.2s ease;
+        max-width: 150px;
+        width: -webkit-fill-available;
+  
+        &:hover,
+        &:focus {
+          background-color: #005a87;
+          outline: none;
+        }
+      }
+    }
+    .feedback-detail {
+        font-size: 22px;
+        margin: 40px 15px;
+        padding-bottom: 25px;
+        h3 {
+            margin: 25px 0 25px 15px;
+        }
+        p{
+            margin: 10px 0 10px 15px;
+            word-break: break-all;
+        }
+    }
+  }
+  

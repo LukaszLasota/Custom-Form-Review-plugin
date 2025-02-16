@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Form Review 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: wp-cli i18n make-pot\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+
+#: app/Render_Callbacks.php:17
+msgid "Prześlij swoją opinię"
+msgstr ""
+
+#: app/Render_Callbacks.php:21
+msgid "Imię"
+msgstr ""
+
+#: app/Render_Callbacks.php:22
+msgid "Nazwisko"
+msgstr ""
+
+#: app/Render_Callbacks.php:23
+msgid "Email"
+msgstr ""
+
+#: app/Render_Callbacks.php:24
+msgid "Temat"
+msgstr ""
+
+#: app/Render_Callbacks.php:25
+msgid "Wiadomość"
+msgstr ""
+
+#: app/Render_Callbacks.php:26
+msgid "Wyślij"
+msgstr ""
+
+#: app/Render_Callbacks.php:48
+msgid "Nie masz uprawnień do przeglądania zawartości tej strony."
+msgstr ""
+
+#: app/Feedback_Handler.php:58
+msgid "Błąd weryfikacji nonce."
+msgstr ""
+
+#: app/Feedback_Handler.php:64
+msgid "Podano niepoprawny adres email."
+msgstr ""
+
+#: app/Feedback_Handler.php:67
+msgid "Wszystkie pola są wymagane."
+msgstr ""
+
+#: app/Feedback_Handler.php:73
+msgid "Temat jest za długi."
+msgstr ""
+
+#: app/Feedback_Handler.php:80
+msgid "Wystąpił błąd przy zapisywaniu opinii. Spróbuj ponownie."
+msgstr ""
+
+#: app/Feedback_Handler.php:86
+msgid "Dziękujemy za przesłanie swojej opinii."
+msgstr ""
+
+#: app/Get_Feedback_Entries.php:45
+msgid "Błąd weryfikacji nonce."
+msgstr ""
+
+#: app/Get_Feedback_Entries.php:51
+msgid "Nie masz uprawnień do przeglądania zawartości tej strony."
+msgstr ""
+
+#. Może się też zdarzyć w plikach JS (np. frontend.js),
+#. ale tam trzeba skonfigurować wp i18n make-pot, by skanował pliki .js
