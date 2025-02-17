@@ -13,5 +13,5 @@
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index-rtl.css",
   "viewStyle": "file:./style-index.css",
-  "script": "file:./frontend.js"
+  "viewScript": "file:./frontend.js"
 }
